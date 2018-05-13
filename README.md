@@ -1,6 +1,6 @@
 # linux-commands
 
-Check or running daemons in linux
+Check all running daemons in linux
 $ ps -eo 'tty,pid,comm' | grep ^?
 
 If root is running graphical programs, they will show up.
